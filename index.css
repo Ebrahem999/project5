@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Tajawal", sans-serif;
+}
+
+html{
+    font-size: 16px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    height: 10vh;
+}
+
+nav .logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+
+}
+
+.logo i{
+    color: #6e0aef;
+    padding-left:0.75rem;
+}
+
+.logo h4{
+    font-family: "Lalezar", cursive;
+}
+
+nav .nav-items{
+    display: flex;
+    list-style: none;
+}
+
+nav .nav-items .nav-item{
+    padding: 0 1rem;
+}
+
+nav .nav-link{
+    text-decoration: none;
+    color: #4e547e;
+    font-size: 1.4rem;
+}
+
+nav .nav-link:hover{
+    color:#6e0aef;
+}
+
+#mobile{
+    display: none;
+}
+
+/* hero section */
+.hero{
+    background-color: #f8f7fc;
+}
+
+.hero-section{
+    max-width: 1366px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+    font-family: "Tajawal";
+}
+
+.hero-section .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section .content h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section .content p{
+    color: rgb(29, 29, 29);
+    font-size: 1.4rem;
+}
+.hero-section span{
+    color: #6e0aef;
+}
+
+.btn{
+    width: 10rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    background-color: #6e0aef;
+    font-family: "Tajawal";
+}
+
+.btn:hover{
+    background-color: #7d25f0;
+    cursor: pointer;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Tajawal";
+}
+
+/* Feature section */
+section.featuers{
+    padding: 2rem 0;
+    background-color: #f8f7fc;
+    font-family: "Tajawal";
+}
+
+section.featuers .featuers-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.featuers-section h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.featuers-section .qualities{
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuers-section .qualities .quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.featuers-section .qualities .quality:hover{
+    border: 2px solid #6e0aef;
+}
+
+.featuers-section .qualities .quality i{
+    font-size: 2rem;
+    color: #6e0aef;
+    margin-bottom: 1rem;
+}
+
+.featuers-section .qualities .quality h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.featuers-section .qualities .quality p{
+    color: #4e547e;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* phones section */
+.neweat-phons{
+    padding-top: 5rem;
+}
+
+.neweat-phons .phones-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+
+}
+
+.phones-section h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.phones-section .phones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+}
+
+.phones .phone{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone img {
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.phone img:hover{
+    border: 4px solid #6e0aef;
+}
+
+
+.phone  h2{
+    font-size: 1.6rem;
+}
+
+
+.phones-section button {
+    width: 18rem;
+    margin-bottom: 1rem;
+    align-self: center;
+}
+
+/* footer */
+footer{
+    background-color: #f8f7fc;
+    height: 15vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.footer-section p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-section .icons{
+    margin-bottom: 1rem;
+}
+
+.footer-section .icons i{
+    padding: 0 0.5rem;
+    font-size: 1.6rem;
+    color: black;
+}
+
+.footer-section .icons i:hover{
+    color: #564ccf;
+}
+
+/* Responsive */
+
+@media (max-width:1300px){
+    *{
+        font-size: 85%;
+    }
+}
+
+@media (max-width:1170){
+    *{
+        font-size: 80%;
+    }
+}
+
+@media (max-width:1000px){
+    *{
+        text-align: center;
+    }
+    .hero img{
+        display: none;
+    }
+    .hero-section{
+        align-items: center;
+        padding: 2rem 0;
+        width: 50%;
+    }
+    .hero .btn{
+        align-self: center;
+    }
+    .hero .content{
+        margin-top: 2rem;
+    }
+    .featuers-section .qualities{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section.featuers .featuers-section{
+        align-items: center;
+    }
+    .hero-section{
+        height: 70vh;
+    }
+}
+
+@media (max-width:660px){
+    .hero-section .content h1{
+        font-size: 2rem;
+    }
+    .phones-section{
+        align-items: center;
+    }
+    .phones-section .phones{
+        grid-template-columns: 1fr 1fr;
+
+    }   
+}
+
+@media (max-width:500px){
+    .phones-section .phones{
+        grid-template-columns: 1fr;
+    }
+    #mobile{
+        display: block;
+        font-size: 2rem;
+    }
+    #mobile:hover{
+        color: #7d25f0;
+    }
+    nav .nav-items{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 10vh;
+        flex-direction: column;
+        width: 100%;
+        background-color: #6e0aef;
+        padding: 2rem;
+    }
+    nav{
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+    nav .nav-items.active{
+        display: flex;
+
+    }
+    nav .nav-item{
+        margin: 1rem 0;
+    }
+    nav .nav-items .nav-item a{
+        color: white;
+    }
+    nav .nav-items .nav-item a:hover{
+        color: #11121d;
+    }
+
+}
